@@ -1,0 +1,285 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url("/fonts/OpenSans-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("/fonts/OpenSans-Bold.ttf");
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    src: url("/fonts/ofont.ru_Playfair\ Display.ttf");
+}
+
+body {
+    font-family: "Open Sans";
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style: none;
+}
+
+.header_logo {
+    display: flex;
+}
+
+.List {
+    display: flex;
+    margin: 78px 0 0 120px;
+    position: relative;
+    z-index: 2;
+}
+
+.rentiOne {
+    padding: 80px 0 0 150px;
+    width: 117px;
+    height: 22px;
+}
+
+.element_menu {
+    padding-left: 60px;
+    font-size: 16pt;
+    transition: all;
+    transition: 500ms;
+}
+
+.element_menu:hover {
+    color: rgb(122, 122, 122);
+    transition: all;
+    transition: 500ms;
+}
+
+.text_brocer {
+    margin: 0;
+    color: rgb(100, 100, 100);
+}
+
+.text_office {
+    font-family: "Playfair Display";
+    font-size: 85pt;
+    font-weight: 400;
+    margin: 20px 0 0 0;
+}
+
+.block_btn {
+    display: flex;
+}
+
+.header_link {
+    margin: auto 0;
+    font-size: 16pt;
+}
+
+.button_link {
+    display: flex;
+    position: relative;
+}
+
+.button_arrow {
+    top: 40%;
+    position: absolute;
+    left: 25%;
+}
+
+.button_Elipse1 {
+    margin-left: 87px;
+}
+
+.block_btn {
+    margin-top: 40px;
+}
+
+.header_block_two {
+    margin: 193px 0 0 387px;
+    position: relative;
+    z-index: 2;
+}
+
+.header_block_three {
+    font-size: 16pt;
+    display: flex;
+    margin: 160px 0 0 387px;
+    padding-bottom: 130px;
+}
+
+.news {
+    font-weight: 800;
+}
+
+.text_news {
+    margin-left: 66px;
+}
+
+.header {
+    background: #F2F2F2;
+    position: relative;
+}
+
+.conditions {
+    position: relative;
+    display: flex;
+    background: #fff;
+    width: 990px;
+    margin-top: -2%;
+    margin-left: -20%;
+}
+
+.text_conditions {
+    font-family: "Playfair Display";
+    font-size: 25pt;
+    margin: 55px 0 0 138px;
+    white-space: nowrap;
+}
+
+.text_office_conditions {
+    font-size: 16pt;
+    margin: 43px 0 0 70px;
+    white-space: nowrap;
+}
+
+.Home-conditionz {
+    position: absolute;
+    right: 0;
+    top: 5%;
+    z-index: 0;
+}
+
+.header_Addition {
+    display: flex;
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 50%;
+    left: -6%;
+}
+
+.Addition_Line {
+    width: 245px;
+    color: rgb(100, 100, 100);
+    opacity: 50%;
+    margin: auto 50px;
+}
+
+.Addition_text {
+    color: rgba(100, 100, 100, 0.493);
+    font-size: 16pt;
+}
+
+.Vk {
+    width: 20px;
+    height: 12px;
+    margin: auto 0 auto 0;
+    transform: rotate(90deg);
+}
+
+.Facebook {
+    width: 9px;
+    height: 17px;
+    margin: auto 30px auto 30px;
+    transform: rotate(90deg);
+}
+
+.YouTube{
+    width: 20px;
+    height: 15px;
+    margin: auto 0 auto 0;
+    transform: rotate(90deg);
+}
+
+.Addition_text_two {
+    color: rgba(100, 100, 100, 0.493);
+    font-size: 16pt;
+    text-transform: uppercase;
+}
+
+.header_interview {
+    position: absolute;
+    display: flex;
+    transform: rotate(-90deg);
+    white-space: nowrap;
+    top: 25%;
+    right: 0;
+}
+
+.Addition_Line_two {
+    width: 80px;
+    color: rgb(100, 100, 100);
+    opacity: 50%;
+    margin: auto 30px auto 0;
+}
+
+.block-2_Actual {
+    font-size: 15pt;
+    text-transform: uppercase;
+    color: rgb(100, 100, 100);
+    margin: 0;
+}
+
+.block-2_popular {
+    font-family: "Playfair Display";
+    font-size: 50pt;
+    margin: 20px 0 0 0;
+}
+
+.List_link {
+    color: black;
+    font-size: 18pt;
+    font-weight: 800;
+    width: 300px;
+}
+
+.List_two {
+    line-height: 5em;
+    padding: 0;
+    margin-top: 60px;
+}
+
+.block-2 {
+    margin: 220px auto 0 auto;
+}
+
+.List_link {
+    color: black;
+    font-size: 18pt;
+    font-weight: 700;
+    background-image: linear-gradient(#E9B0B0, #E9B0B0);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 10px;
+    transition: background-size .5s;
+} 
+
+.List_link:hover {
+    background-size: 100% 10px;
+}
+
+.Photo_block {
+    display: flex;
+}
+
+.Home1 {
+    margin: 79px 0 0 139px;
+}
+
+.Block_home {
+    display: flex;
+}
+
+.Home2 {
+    padding: 100px 0 0 40px;
+    width: 802px;
+    height: 596px;
+}
+
